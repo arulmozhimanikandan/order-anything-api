@@ -10,7 +10,7 @@ const user = require('../constants/mysqlUser');
 // })
 
 var connection = mysql.createPool({
-    host: 'localhost',
+    host: '160.153.129.26',
     user: user.DB_USER,
     password: user.DB_PASSWORD,
     database: 'orderAnything'
