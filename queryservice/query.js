@@ -44,15 +44,19 @@ const addMerchant = (data, callback) => {
 
 const addOrder = (data, callback) => {
 
-    const {userId, status, productList} = data;
-    connection.query(`INSERT INTO orderAnything.orders (user_id, status, created_at) VALUES ('${userId}', '${status}', '${new Date()}')`, (err, result) => {
-        if(err) throw err;
-        JSON.parse(productList).forEach(product => {
-            connection.query(`INSERT INTO orderAnything.order_items (order_id, product_id, quantity) VALUES ('${result.insertId}','${product.id}', '${product.qty}')`, (err, res) => {
+    const { status, productList, name, email, phone, address} = data;
+        connection.query(`INSERT INTO orderAnything.users (name, email, address, phone, created_at) VALUES('${name}', '${email}', '${address}', '${phone}', '${new Date()}')`, (err, userResult) => {
+            if (err) throw  err;
+            connection.query(`INSERT INTO orderAnything.orders (user_id, status, created_at) VALUES ('${userResult.insertId}','${status}', '${new Date()}')`, (err, result) => {
                 if(err) throw err;
-                callback(err, result.insertId)
-            })
+                JSON.parse(productList).forEach(product => {
+                    connection.query(`INSERT INTO orderAnything.order_items (order_id, product_id, quantity) VALUES ('${result.insertId}','${product.id}', '${product.qty}')`, (err, res) => {
+                        if(err) throw err;
+                        callback(err, result.insertId)
+                    })
+                })
         })
+
     })
 }
 

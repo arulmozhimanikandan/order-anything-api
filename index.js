@@ -51,13 +51,12 @@ app.post('/api/merchant/add', (req, res) => {
     });
 });
 
-app.post('/api/order/add', (req, res) => {
+app.post('/api/order/add', (req, res,) => {
     addOrder(req.body,(err, result) => {
         if(err) throw err;
         if(result){
-            res.send({msg:"Order Successfully created!!"})
+            res.status(200).json({msg:"Order Successfully created!!"});
         }
-
     });
 });
 
