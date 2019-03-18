@@ -1,4 +1,4 @@
-const {getCuisine, getGender, getRegions, addMerchant, addOrder} = require('./queryservice/query');
+const {getCuisine, getGender, getRegions, addMerchant, addOrder, addProduct} = require('./queryservice/query');
 var bodyParser = require('body-parser');
 var express = require('express'),
     app = express(),
@@ -59,5 +59,14 @@ app.post('/api/order/add', (req, res,) => {
         }
     });
 });
+
+app.post('/api/product/add',(req, res) => {
+    addProduct(req.body, (err, result) => {
+        if(err) throw err;
+        if(result.insertId){
+            res.status(200).json({msg:"Product Successfully created!!"});
+        }
+    })
+})
 
 console.log('Server has started at: ' + port);

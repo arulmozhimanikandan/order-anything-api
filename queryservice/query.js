@@ -10,7 +10,7 @@ const user = require('../constants/mysqlUser');
 // })
 
 var connection = mysql.createPool({
-    host: '160.153.129.26',
+    host: 'localhost',
     user: user.DB_USER,
     password: user.DB_PASSWORD,
     database: 'orderAnything'
@@ -45,7 +45,7 @@ const addMerchant = (data, callback) => {
 const addOrder = (data, callback) => {
 
     const { status, productList, name, email, phone, address} = data;
-        connection.query(`INSERT INTO orderAnything.users (name, email, address, phone, created_at) VALUES('${name}', '${email}', '${address}', '${phone}', '${new Date()}')`, (err, userResult) => {
+        connection.query(`INSERT INTO orderAnything.users (name, email, address, phone, created_at) VALUES('${name}', '${email}', '${address}', '${phone}', '${new Date().toLocaleString()}')`, (err, userResult) => {
             if (err) throw  err;
             connection.query(`INSERT INTO orderAnything.orders (user_id, status, created_at) VALUES ('${userResult.insertId}','${status}', '${new Date()}')`, (err, result) => {
                 if(err) throw err;
@@ -60,10 +60,19 @@ const addOrder = (data, callback) => {
     })
 }
 
+const addProduct = (data, callback) => {
+     const {merchant_id, name, price, qty} = data
+    connection.query(`INSERT INTO orderAnything.products (name, merchant_id, price, qty, created_at) VALUES('${name}', '${merchant_id}', '${price}', '${qty}', '${new Date().toLocaleString()}')`, (err, res) => {
+       if (err) throw err;
+        callback(err, res)
+    })
+}
+
 module.exports = {
     getGender,
     getCuisine,
     getRegions,
     addMerchant,
-    addOrder
+    addOrder,
+    addProduct
 }
