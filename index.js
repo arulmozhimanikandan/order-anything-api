@@ -1,4 +1,4 @@
-const {getCuisine, getGender, getRegions, addMerchant, addOrder, addProduct} = require('./queryservice/query');
+const {getCuisine, getGender, getRegions, addMerchant, addOrder, addProduct, storeLogin, getProducts} = require('./queryservice/query');
 var bodyParser = require('body-parser');
 var express = require('express'),
     app = express(),
@@ -9,8 +9,8 @@ var express = require('express'),
     next();
 });
 
-app.use(bodyParser.json()); // support json encoded bodies
-app.use(bodyParser.urlencoded({extended: true})); // support encoded bodies
+app.use(bodyParser.json());
+//app.use(bodyParser.urlencoded({extended: true})); // support encoded bodies
 app.listen(port);
 
 app.get('/api/gender', (req, res) => {
@@ -51,6 +51,18 @@ app.post('/api/merchant/add', (req, res) => {
     });
 });
 
+app.post('/login/store', (req, res) => {
+    storeLogin(req.body, (err, result) => {
+        if(err) throw err;
+            if(result){
+                res.send({loginStatus:101, id: result})
+            }else {
+                res.send({loginStatus:401})
+            }
+
+    })
+})
+
 app.post('/api/order/add', (req, res,) => {
     addOrder(req.body,(err, result) => {
         if(err) throw err;
@@ -63,8 +75,16 @@ app.post('/api/order/add', (req, res,) => {
 app.post('/api/product/add',(req, res) => {
     addProduct(req.body, (err, result) => {
         if(err) throw err;
-        if(result.insertId){
+        if(result){
             res.status(200).json({msg:"Product Successfully created!!"});
+        }
+    })
+})
+app.post('/api/products/',(req, res) => {
+    getProducts(req.body, (err, result) => {
+        if(err) throw err;
+        if(result){
+            res.status(200).json({products:result});
         }
     })
 })

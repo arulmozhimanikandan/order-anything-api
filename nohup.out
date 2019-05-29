@@ -1,0 +1,2416 @@
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_NO_DEFAULT_FOR_FIELD: Field 'userId' doesn't have a default value
+    at Query.Sequence._packetToError (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    --------------------
+    at Pool.query (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Pool.js:199:23)
+    at addMerchant (/home/oatnow/public_html/order-anything-api/queryservice/query.js:40:16)
+    at app.post (/home/oatnow/public_html/order-anything-api/index.js:45:5)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at /home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:275:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-28T07_15_02_107Z-debug.log
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+internal/modules/cjs/loader.js:584
+    throw err;
+    ^
+
+Error: Cannot find module 'js-base64'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:582:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:508:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:22:18)
+    at Object.<anonymous> (/home/oatnow/public_html/order-anything-api/queryservice/query.js:3:16)
+    at Module._compile (internal/modules/cjs/loader.js:701:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)
+    at Module.load (internal/modules/cjs/loader.js:600:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:531:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-28T07_21_15_716Z-debug.log
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+Mzk1NDA2NA==
+Email sent: 250 2.0.0 OK  1559028307 f22sm2123351eja.16 - gsmtp
+[]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'price' at row 1
+    at Query.Sequence._packetToError (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    --------------------
+    at Pool.query (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Pool.js:199:23)
+    at addProduct (/home/oatnow/public_html/order-anything-api/queryservice/query.js:94:16)
+    at app.post (/home/oatnow/public_html/order-anything-api/index.js:76:5)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at /home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:275:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-28T10_55_35_143Z-debug.log
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'price' at row 1
+    at Query.Sequence._packetToError (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    --------------------
+    at Pool.query (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Pool.js:199:23)
+    at addProduct (/home/oatnow/public_html/order-anything-api/queryservice/query.js:94:16)
+    at app.post (/home/oatnow/public_html/order-anything-api/index.js:76:5)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at /home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:275:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-28T10_58_08_837Z-debug.log
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'price' at row 1
+    at Query.Sequence._packetToError (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    --------------------
+    at Pool.query (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Pool.js:199:23)
+    at addProduct (/home/oatnow/public_html/order-anything-api/queryservice/query.js:94:16)
+    at app.post (/home/oatnow/public_html/order-anything-api/index.js:76:5)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at /home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:275:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-28T11_28_36_896Z-debug.log
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' } ]
+/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'sds' for column 'price' at row 1
+    at Query.Sequence._packetToError (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:189:13)
+    at addChunk (_stream_readable.js:284:12)
+    at readableAddChunk (_stream_readable.js:265:11)
+    --------------------
+    at Pool.query (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Pool.js:199:23)
+    at addProduct (/home/oatnow/public_html/order-anything-api/queryservice/query.js:94:16)
+    at app.post (/home/oatnow/public_html/order-anything-api/index.js:76:5)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at /home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:275:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-28T11_54_48_067Z-debug.log
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
