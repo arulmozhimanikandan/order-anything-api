@@ -1,4 +1,4 @@
-const {getCuisine, getGender, getRegions, addMerchant, addOrder, addProduct, storeLogin, getProducts} = require('./queryservice/query');
+const {getCuisine, getGender, getRegions, addMerchant, addOrder, addProduct, storeLogin, getProducts, editProduct, deleteProduct, getOrders, viewOrder, getCustomerDetails, getOrderStatus, setOrderStatus, getStores, getStoreItems } = require('./queryservice/query');
 var bodyParser = require('body-parser');
 var express = require('express'),
     app = express(),
@@ -88,5 +88,93 @@ app.post('/api/products/',(req, res) => {
         }
     })
 })
+
+app.post('/api/products/edit/',(req, res) => {
+    editProduct(req.body, (err, result) => {
+        if(err) throw err;
+        if(result){
+            res.status(200).json({result});
+        }
+    })
+})
+
+app.post('/api/products/delete/',(req, res) => {
+    deleteProduct(req.body, (err, result) => {
+        if(err) throw err;
+        if(result){
+            res.status(200).json({result});
+        }
+    })
+})
+
+app.post('/api/orders/',(req, res) => {
+    getOrders(req.body, (err, result) => {
+        console.log(result)
+        if(err) throw err;
+        if(result){
+            res.status(200).json({result});
+        }
+    })
+})
+
+app.post('/api/orders/view',(req, res) => {
+    viewOrder(req.body, (err, result) => {
+        console.log(result)
+        if(err) throw err;
+        if(result){
+            res.status(200).json({result});
+        }
+    })
+})
+
+app.post('/api/orders/get/customer',(req, res) => {
+    getCustomerDetails(req.body, (err, result) => {
+        console.log(result)
+        if(err) throw err;
+        if(result){
+            res.status(200).json({result});
+        }
+    })
+})
+app.post('/api/orders/get/status',(req, res) => {
+    getOrderStatus(req.body, (err, result) => {
+        console.log(result)
+        if(err) throw err;
+        if(result){
+            res.status(200).json({result});
+        }
+    })
+})
+
+app.post('/api/orders/set/status',(req, res) => {
+    setOrderStatus(req.body, (err, result) => {
+        console.log(result)
+        if(err) throw err;
+        if(result){
+            res.status(200).json({result});
+        }
+    })
+})
+
+app.post('/api/store/get',(req, res) => {
+    getStores(req.body, (err, result) => {
+        console.log(result)
+        if(err) throw err;
+        if(result){
+            res.status(200).json({result});
+        }
+    })
+})
+
+app.post('/api/store/get/products',(req, res) => {
+    getStoreItems(req.body, (err, result) => {
+        console.log(result)
+        if(err) throw err;
+        if(result){
+            res.status(200).json({result});
+        }
+    })
+})
+
 
 console.log('Server has started at: ' + port);

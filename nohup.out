@@ -2414,3 +2414,445 @@ Server has started at: 5100
     price: 10,
     qty: 100,
     created_at: '5/28/2019, 4:56:38 AM' } ]
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5100
+    at Server.setupListenHandle [as _listen2] (net.js:1279:14)
+    at listenInCluster (net.js:1327:12)
+    at Server.listen (net.js:1414:7)
+    at Function.listen (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/oatnow/public_html/order-anything-api/index.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1306:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-29T20_32_22_487Z-debug.log
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosa',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosas',
+    merchant_id: 42,
+    price: 12,
+    qty: 101,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosas',
+    merchant_id: 42,
+    price: 12,
+    qty: 101,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosas',
+    merchant_id: 42,
+    price: 12,
+    qty: 101,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosas',
+    merchant_id: 42,
+    price: 12,
+    qty: 101,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosas',
+    merchant_id: 42,
+    price: 12,
+    qty: 101,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosas',
+    merchant_id: 42,
+    price: 12,
+    qty: 101,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5100
+    at Server.setupListenHandle [as _listen2] (net.js:1279:14)
+    at listenInCluster (net.js:1327:12)
+    at Server.listen (net.js:1414:7)
+    at Function.listen (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/oatnow/public_html/order-anything-api/index.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1306:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-30T13_25_27_442Z-debug.log
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosas',
+    merchant_id: 42,
+    price: 12,
+    qty: 101,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+[ RowDataPacket {
+    id: 1,
+    name: 'Dosas',
+    merchant_id: 42,
+    price: 12,
+    qty: 101,
+    created_at: '5/28/2019, 12:26:09 AM' },
+  RowDataPacket {
+    id: 2,
+    name: 'Poori',
+    merchant_id: 42,
+    price: 10,
+    qty: 1000,
+    created_at: '5/28/2019, 4:31:14 AM' },
+  RowDataPacket {
+    id: 3,
+    name: 'samabar',
+    merchant_id: 42,
+    price: 11,
+    qty: 11,
+    created_at: '5/28/2019, 4:33:41 AM' },
+  RowDataPacket {
+    id: 4,
+    name: 'gskitchen',
+    merchant_id: 42,
+    price: 10,
+    qty: 100,
+    created_at: '5/28/2019, 4:56:38 AM' } ]
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'undefined' for column 'price' at row 1
+    at Query.Sequence._packetToError (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Pool.query (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Pool.js:199:23)
+    at editProduct (/home/oatnow/public_html/order-anything-api/queryservice/query.js:118:16)
+    at app.post (/home/oatnow/public_html/order-anything-api/index.js:102:5)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at /home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:275:10)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-30T21_59_06_540Z-debug.log
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: 'undefined' for column 'price' at row 1
+    at Query.Sequence._packetToError (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:278:23)
+    at Parser.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:91:28)
+    at Socket.<anonymous> (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Connection.js:502:10)
+    at Socket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    --------------------
+    at Pool.query (/home/oatnow/public_html/order-anything-api/node_modules/mysql/lib/Pool.js:199:23)
+    at editProduct (/home/oatnow/public_html/order-anything-api/queryservice/query.js:118:16)
+    at app.post (/home/oatnow/public_html/order-anything-api/index.js:102:5)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/layer.js:95:5)
+    at /home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/router/index.js:275:10)
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+
+> nodesql@1.0.0 start /home/oatnow/public_html/order-anything-api
+> node index
+
+Server has started at: 5100
+events.js:174
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5100
+    at Server.setupListenHandle [as _listen2] (net.js:1279:14)
+    at listenInCluster (net.js:1327:12)
+    at Server.listen (net.js:1414:7)
+    at Function.listen (/home/oatnow/public_html/order-anything-api/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/oatnow/public_html/order-anything-api/index.js:14:5)
+    at Module._compile (internal/modules/cjs/loader.js:776:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+Emitted 'error' event at:
+    at emitErrorNT (net.js:1306:8)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:832:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! nodesql@1.0.0 start: `node index`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the nodesql@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/oatnow/.npm/_logs/2019-05-31T09_43_32_069Z-debug.log
